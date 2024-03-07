@@ -6,7 +6,6 @@ Membri:
 - Alessandro Piergiovanni (MAT: 738044)
 - Saverio de Candia (MAT: 736578)
 - Nicolò Sciancalepore (MAT: 735589)
-- Dario Zippo (MAT: 747006)
 
 ---
 
