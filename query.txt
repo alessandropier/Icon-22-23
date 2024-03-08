@@ -1,0 +1,9 @@
+Query prolog dataset videogiochi:
+
+1) Chiede in input genere e classificazione d'età e da in output la lista dei giochi di quel genere con quel pegi
+2) Chiede in input un genere e stampa quanti giochi di quel genere ci sono
+3) Chiede in input un genere e stampa i titoli dei giochi di quel genere
+4) Chiede in input un publisher e restituisce la media dei rating dei suoi giochi
+5) Chiede in input un genere e restituisce il publisher con più giochi di quel genere
+6) Chiede in input un publisher e restituisce il gioco di quel publisher con il rating più alto
+7) Chiede in input nome gioco ed età di una persona e restituisce true se può giocarlo, false altrimenti
