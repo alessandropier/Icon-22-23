@@ -20,8 +20,6 @@ Dataset Utilizzati:
 La repository è composta dalle seguenti directory:
 - Code: contiene tutti i codici utilizzati per la realizzazione del progetto, comprese le funzioni di preprocessing del dataset, funzioni per l'apprendimento supervisionato e non supervisionato e il prolog
 - Dataset: contiene i due dataset originali e i dataset preprocessati utilizzati dalle funzioni di raccomandazione e predizione
-- Documentazione: contiene la documentazione di progetto
+- Documentazione: contiene la documentazione del progetto in formato Word (.docx) e PDF
 - Images: contiene le immagini utilizzate per realizzare la documentazione di progetto
 ---
-
-
