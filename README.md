@@ -18,13 +18,13 @@ Dataset Utilizzati:
 <br>
 
 La repository è composta dalle seguenti directory:
-- Code: contiene tutti i codici utilizzati per la realizzazione del progetto, comprese le funzioni di preprocessing del dataset
-- Dataset: contiene i dataset originali e i dataset preprocessati utilizzati dalle funzioni di raccomandazione e predizione
-- Notebook: contiene i due notebook utilizzati per il preprocessing, realizzati su Jupyter Notebook
+- Code: contiene tutti i codici utilizzati per la realizzazione del progetto, comprese le funzioni di preprocessing del dataset, funzioni per l'apprendimento supervisionato e non supervisionato e il prolog
+- Dataset: contiene i due dataset originali e i dataset preprocessati utilizzati dalle funzioni di raccomandazione e predizione
+- Images: contiene le immagini utilizzate per realizzare la documentazione di progetto
 
 <br>
 
-Inoltre è presente anche "DocumentazioneICon", ovvero la documentazione del progetto
+Inoltre è presente anche la documentazione del progetto con il nome "DocumentazioneICon".
 
 ---
 
