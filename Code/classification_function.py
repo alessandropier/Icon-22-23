@@ -13,7 +13,7 @@ def knn_classification(training, target):
     knn = KNeighborsClassifier()
     parameters_knn = {
         "n_neighbors": (1, 10, 13),
-        "weights": ("uniform", "distance"),     #Rivedi "parameters knn" documentazione sklearn
+        "weights": ("uniform", "distance"), 
         "metric": ("minkowski", "manhattan")}
 
     grid_search_knn = GridSearchCV(
@@ -92,7 +92,12 @@ def random_forest_classification(training, target):
     rf = RandomForestClassifier(max_depth=25, min_samples_leaf=1, min_samples_split=3, n_estimators=100, criterion="entropy")
     rf.fit(x_train.values, y_train.values)
     y_pred_rf = rf.predict(x_test.values)
+    y_train_rf = rf.predict(x_train.values)
+
     #print("Accuracy rf:", metrics.accuracy_score(y_test, y_pred_rf))
+
+    #print("Accuracy training set:", metrics.accuracy_score(y_train, y_train_rf))
+    #print("Accuracy test set:", metrics.accuracy_score(y_test, y_pred_rf))
 
     #print(metrics.classification_report(y_test, y_pred_rf))
     

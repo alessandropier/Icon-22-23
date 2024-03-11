@@ -57,7 +57,7 @@ giochi["Classification"] = giochi.apply(lambda row: convert_by_classification(ro
 giochi = giochi.astype("int")
 
 giochi.to_csv("./Dataset/giochi_preprocessato.csv", index=False)
-
+giochi = giochi.drop(columns=["Classification_format"])
 
 #Begin classification
 
