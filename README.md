@@ -11,7 +11,7 @@ Membri:
 
 # Funzionalità del Sistema
 
-Il progetto implementa un sistema completo per la predizione del PEGI di un videogioco attraverso l'apprendimento supervisionato utilizzando l'algoritmo Random Forest. Inoltre, offre un sistema di raccomandazione di 10 giochi basato sull'input di un gioco dall'utente, utilizzando l'algoritmo K-Means per l'apprendimento non supervisionato. Inoltre, viene realizzata una base di cononscenza in Prolog e mediante 10 regole che operano sinergicamente sono state realizzate 7 query in grado di fornire ulteriori informazioni utili.
+Il progetto implementa un sistema completo per la predizione del PEGI di un videogioco attraverso l'apprendimento supervisionato utilizzando l'algoritmo Random Forest. Offre un sistema di raccomandazione di 10 giochi basato sull'input di un gioco dall'utente, utilizzando l'algoritmo K-Means per l'apprendimento non supervisionato. Inoltre, viene realizzata una base di cononscenza in Prolog e mediante 10 regole che operano sinergicamente sono state realizzate 7 query in grado di fornire ulteriori informazioni utili.
 
 ## Componenti Principali:
 - **Predizione del PEGI:** Utilizza l'algoritmo Random Forest per prevedere il PEGI di un videogioco inserito in input.
