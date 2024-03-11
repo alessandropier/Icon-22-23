@@ -9,7 +9,20 @@ Membri:
 
 ---
 
-# Descrizione
+# Funzionalità del Sistema
+
+Il progetto implementa un sistema completo per la predizione del PEGI di un videogioco attraverso l'apprendimento supervisionato utilizzando l'algoritmo Random Forest. Inoltre, offre un sistema di raccomandazione di 10 giochi basato sull'input di un gioco dall'utente, utilizzando l'algoritmo K-Means per l'apprendimento non supervisionato. Inoltre, viene realizzata una base di cononscenza in Prolog e mediante 10 regole che operano sinergicamente è possibile realizzare 7 query.
+
+## Componenti Principali:
+- **Predizione del PEGI:** Utilizza l'algoritmo Random Forest per prevedere il PEGI di un videogioco inserito in input.
+- **Sistema di Raccomandazione:** Basato su K-Means, suggerisce 10 giochi correlati a quello inserito dall'utente.
+- **Base di Conoscenza Prolog:** Composta da 10 regole specifiche, supporta 7 query per fornire ulteriori informazioni o analisi.
+
+Il sistema offre una completa soluzione per la predizione del pegi dei giochi e per fornire raccomandazioni personalizzate agli utenti, sfruttando sia l'apprendimento supervisionato che non supervisionato, oltre a una vasta base di conoscenza Prolog per ulteriori analisi.
+
+---
+
+# Descrizione Repository
 
 Dataset Utilizzati: 
 - https://www.kaggle.com/datasets/gregorut/videogamesales
